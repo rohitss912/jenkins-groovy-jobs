@@ -10,6 +10,6 @@ listView('spring-boot'){
         buildButton()
     }
     jobs{
-        name('test-api')
+        name('test-api-job')
     }
 }
