@@ -1,6 +1,6 @@
-node{
-    stage('checkout'){
-        steps{
+node {
+    stage ('checkout') {
+        steps {
 
             echo "Hi m there"
         }
