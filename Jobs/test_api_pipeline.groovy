@@ -5,6 +5,6 @@ node {
     }
 
     stage('Build'){
-        sh "mvn clean package"
+        bat "mvn clean package"
     }
 }
